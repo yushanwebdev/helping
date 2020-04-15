@@ -1,2 +1,2 @@
 # Helping
-This repo contains all the code samples that created by me to help others.
+This repo contains all the code samples created by me to help others.
