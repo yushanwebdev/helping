@@ -1,0 +1,29 @@
+{
+  "name": "form-progress-bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yushanwebdev/form-progress-bar.git"
+  },
+  "author": "Yushan Fernando",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yushanwebdev/form-progress-bar/issues"
+  },
+  "homepage": "https://github.com/yushanwebdev/form-progress-bar#readme",
+  "dependencies": {
+    "jquery": "^3.5.0",
+    "jquery-validation": "^1.19.1"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}

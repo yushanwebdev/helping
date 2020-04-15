@@ -1,0 +1,69 @@
+.amana-progress-bar-wrapper {
+  display: flex;
+}
+
+.amana-progress-bar {
+  width: 60%;
+  height: 44px;
+  background-color: #424546;
+  position: relative;
+  z-index: 1;
+}
+
+.amana-progress-count {
+  position:  absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+}
+
+.amana-progress {
+  width: 50%;
+  height: 100%;
+  background-color: #683A93;
+}
+
+.amana-progress-button {
+  width: 40%;
+  text-align: center;
+  background-color: #353738;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amana-progress-submit,
+.amana-progress-disable {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.amana-progress-submit {
+  color: #fff;
+}
+
+.amana-progress-disable {
+  color: #000;
+  display: none;
+}
+
+.amana-progress-bar-disable .amana-progress-button {
+  background-color: #DFE8E5;
+}
+
+.amana-progress-bar-disable .amana-progress-submit {
+  display: none;
+}
+
+.amana-progress-bar-disable .amana-progress-disable {
+  display: flex;
+}
+
+.amana-progress-bar-active .amana-progress-button {
+  background-color: #085639;
+}
