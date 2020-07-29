@@ -1,0 +1,26 @@
+body {
+	display: flex;
+	height: 100vh;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+	background-color: #000;
+}
+
+button {
+	border: 0;
+	background-color: transparent;
+	border-radius: 20px;
+	padding: 13px 19px;
+	color: #fff;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.button-one {
+	background-image: linear-gradient(to top, #a94bb9, #9b46b7, #8d42b5, #7d3eb2, #6d3ab0);
+}
+
+.button-two {
+	background-image: linear-gradient(to top, #d83f91, #d0409b, #c743a5, #bb47af, #ae4bb8);
+	margin-left: 12px;
+}
