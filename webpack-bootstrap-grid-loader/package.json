@@ -18,7 +18,7 @@
   "homepage": "https://github.com/yushanwebdev/form-progress-bar#readme",
   "dependencies": {
     "jquery": "^3.5.0",
-    "jquery-validation": "^1.19.3"
+    "jquery-validation": "^1.19.4"
   },
   "devDependencies": {
     "css-loader": "^3.5.2",
